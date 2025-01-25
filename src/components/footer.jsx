@@ -15,9 +15,9 @@ function Footer() {
         transition={{
           ease: "easeInOut",
         }}
-        href="/aadi-portfolio/resume.pdf"
+        href="/resume.pdf"
         target="_blank"
-        // download="Aaditya-Paul-Resume.pdf" // Optional: Rename the downloaded file
+        download="Aaditya-Paul-Resume.pdf" // Optional: Rename the downloaded file
         className=" animate-pulse underline underline-offset-4 py-2 cursor-pointer"
       >
         Download Resume 📁
