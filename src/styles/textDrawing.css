@@ -1,0 +1,20 @@
+@keyframes drawText {
+    0% {
+        clip-path: inset(0 100% 0 0);
+        /* Start with text hidden */
+    }
+
+    100% {
+        clip-path: inset(0 0 0 0);
+        /* Reveal the text */
+    }
+}
+
+.animated-text {
+    display: inline-block;
+    color: white;
+    animation: drawText 1s ease-in-out forwards;
+    /* Adjust duration as needed */
+    background: black;
+    /* Background to enhance visibility */
+}
