@@ -62,7 +62,7 @@ function Projects() {
       title: "P2P File Sharing",
       description:
         "A simple Peer-to-Peer (P2P) file sharing application built with Next.js and Tailwind CSS. It allows users to upload files securely, generating unique URLs for easy file download. The app's design emphasizes simplicity and ease of use but requires local setup for development or cloud deployment for public access.",
-      date: "May 2024",
+      date: "Jan 2025",
       url: "https://github.com/aaditya-paul/p2p-fullstack-filesharing",
       img: P2P,
     },
