@@ -6,6 +6,7 @@ import WTT from "../../public/preview/wtt.jpg";
 import MB from "../../public/preview/mb.jpg";
 import UPX from "../../public/preview/upx.jpg";
 import CG from "../../public/preview/cg.jpg";
+import P2P from "../../public/preview/p2p.jpg";
 function Projects() {
   const achievements = [
     {
@@ -56,6 +57,14 @@ function Projects() {
       date: "May 2024",
       url: "https://github.com/aaditya-paul/cogni-glove",
       img: CG,
+    },
+    {
+      title: "P2P File Sharing",
+      description:
+        "A simple Peer-to-Peer (P2P) file sharing application built with Next.js and Tailwind CSS. It allows users to upload files securely, generating unique URLs for easy file download. The app's design emphasizes simplicity and ease of use but requires local setup for development or cloud deployment for public access.",
+      date: "May 2024",
+      url: "https://github.com/aaditya-paul/p2p-fullstack-filesharing",
+      img: P2P,
     },
   ];
 
