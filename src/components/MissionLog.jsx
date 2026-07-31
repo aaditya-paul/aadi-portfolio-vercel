@@ -21,6 +21,7 @@ import GPT from "../../public/preview/gpt.jpg";
 import WKC from "../../public/preview/wkc.jpg";
 import RIZZ from "../../public/preview/rizz.jpeg";
 import LW from "../../public/preview/lw.jpeg";
+import ULT from "../../public/preview/ult.jpeg";
 const missions = [
   {
     title: "FluxBit.",
@@ -30,6 +31,17 @@ const missions = [
     liveUrl: "https://fluxbit-one.vercel.app",
     img: FB,
     tech: ["UI/UX", "Web Agency", "Landing Page"],
+    category: "frontend",
+    featured: true,
+  },
+  {
+    title: "Ultron",
+    description:
+      "A local-first multi-agent system that finds security flaws in source code — combining AST analysis, IR-based taint propagation, and specialized LLM agents.",
+    date: "Jul 2026",
+    githubUrl:"https://github.com/aaditya-paul/project-ultron",
+    img: ULT,
+    tech: ["AST", "IR", "Cybersecurity", "AI/ML"],
     category: "frontend",
     featured: true,
   },
@@ -53,7 +65,6 @@ const missions = [
     liveUrl: "https://rizzlet.aaditya-paul.in/",
     img: RIZZ,
     tech: ["AI", "NodeJs", "PostgreSQL", "AI/ML"],
-    featured: true,
     category: "ai",
   },
   {
