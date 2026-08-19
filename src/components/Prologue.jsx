@@ -150,7 +150,7 @@ export default function Prologue() {
               alt="Aaditya Paul"
               width={350}
               height={350}
-              className="relative w-[140px] h-[140px] sm:w-[200px] sm:h-[200px] md:w-[280px] md:h-[280px] lg:w-[350px] lg:h-[350px] rounded-full object-cover border-2 border-[#f4bb44]/30"
+                className="relative w-[140px] h-[140px] sm:w-[200px] sm:h-[200px] md:w-[280px] md:h-[280px] lg:w-[350px] lg:h-[350px] rounded-full object-cover object-[55%_30%] border-2 border-[#f4bb44]/30"
               priority
             />
           </div>
